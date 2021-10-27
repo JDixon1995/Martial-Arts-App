@@ -22,3 +22,23 @@
   padding: 10px;
   text-align: center;
 }
+
+.program {
+  background: grey;
+  color: red;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.program h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.program:hover {
+  background: black;
+  color: aqua;
+}
