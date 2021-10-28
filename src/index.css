@@ -42,3 +42,20 @@
   background: black;
   color: aqua;
 }
+
+.form-div {
+  text-align: center;
+  margin: 7px;
+  padding: 7px;
+}
+
+.form-control {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
