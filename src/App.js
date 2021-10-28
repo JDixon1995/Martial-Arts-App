@@ -7,7 +7,10 @@ import Footer from './components/Footer'
 
 const App = () => {
 
-  
+  const addRes = (e) => {
+    e.preventDefault();
+    console.log('Clicked', e.target)
+  }
 
   return (
     <div className="container">
@@ -15,7 +18,7 @@ const App = () => {
       title='Martial Arts: JuiJitsu and Thai Boxing' />
       <Programs />
       <Mission />
-      <Form />
+      <Form onSubmit={addRes} />
       <Footer />
     </div>
   );
