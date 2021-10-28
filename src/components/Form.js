@@ -8,8 +8,10 @@ const Form = () => {
         <form className="form-control">
             <label>Name:</label>
             <input type="text" placeholder="Your name here..." />
-            <label>Date and Time:</label>
-            <input type="date" placeholder="Date and Time here..." />
+            <label>Date:</label>
+            <input type="date" placeholder="Date and here..." />
+            <label>Time:</label>
+            <input type="text" placeholder="Time here..." />
         </form>
         </div>
     )

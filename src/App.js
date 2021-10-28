@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Programs from './components/Programs'
 import Mission from './components/Mission'
 import Form from './components/Form'
+import Footer from './components/Footer'
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
       <Programs />
       <Mission />
       <Form />
+      <Footer />
     </div>
   );
 }
