@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header'
+import Nav from './components/Nav'
 import Programs from './components/Programs'
 import Mission from './components/Mission'
 import Form from './components/Form'
@@ -16,6 +17,7 @@ const App = () => {
     <div className="container">
       <Header
       title='Martial Arts: JuiJitsu and Thai Boxing' />
+      <Nav />
       <Programs />
       <Mission />
       <Form onSubmit={addRes} />
