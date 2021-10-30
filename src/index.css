@@ -39,10 +39,14 @@ body {
   text-decoration: none;
 }
 
+.nav-link:hover {
+  color: red;
+}
+
 .program {
   background: grey;
   color: red;
-  margin: 5px;
+  margin: 2.5px;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 3px;
@@ -56,19 +60,30 @@ body {
 
 .program:hover {
   background: black;
-  color: aqua;
+  color: red;
 }
 
 .mission-div {
   text-align: center;
   padding: 15px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .form-div {
   text-align: center;
   margin: 7px;
   padding: 7px;
+}
+
+.btn {
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  color: white;
+  background-color:black;
 }
 
 .form-control {
