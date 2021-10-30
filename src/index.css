@@ -16,8 +16,7 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 60%;
-  height: 75%;
-  min-height: 75%;
+  height: 65%;
   border: 2px solid steelblue;
   border-radius: 7px;
   margin: 0 auto;
@@ -28,6 +27,16 @@ body {
   margin: 5px;
   padding: 10px;
   text-align: center;
+}
+
+.nav {
+  text-align: center;
+  margin: 5px;
+}
+
+.nav-link {
+  margin: 5px;
+  text-decoration: none;
 }
 
 .program {
@@ -85,7 +94,7 @@ body {
   text-align: center;
   border: 2px solid red;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   border-radius: 7px;
   background-color: white;
 }
